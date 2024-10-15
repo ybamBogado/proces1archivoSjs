@@ -42,11 +42,11 @@
 ¡Las contribuciones son bienvenidas! 🙌 Si deseas mejorar este proyecto, por favor sigue estos pasos:
 1. 🍴 Haz un fork del repositorio.
 2. 🌿 Crea una nueva rama con tu característica o corrección:
-    ```bash
+
     git checkout -b mi-nueva-caracteristica
-    ```
+   
 3. ✏️ Realiza tus cambios y haz commit:
-    ```bash
+    ```
     git commit -m 'Añadir nueva característica'
     ```
 4. ⬆️ Sube tus cambios al repositorio:
