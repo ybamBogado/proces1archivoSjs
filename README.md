@@ -1,22 +1,35 @@
-<h1>Lector de csv + asignador de parametros a clase</h1>
+<h1>Visualizacion de csv </h1>
 <h2>
   Descripción
 </h2>
 <p>
-  El siguiente proyecto contiene una app de consola que devuelve el contenido de un archivo csv y también convierte su contenido a una clase llamada proceso
+  El siguiente proyecto contiene una app de consola que devuelve el contenido de un archivo csv y con su contenido utiliza una clase llamada proceso, para ofrecer distintas vistas otorgando estas opciones
+  1-por defecto como viene en el csv
+  2-min heap basandose en el tiempo que tarda el proceso
+  3-max heap basandose en la prioridad del proceso
+  4-salir
 </p>
 <hr>
 <h2>
   visualizacion del programa por consola
 </h2>
+<h2>
+  Opciones
+</h2>
 
-<img src="https://github.com/user-attachments/assets/807c94f4-857d-4818-97e1-3002daab4c9f" alt="Imagen página">
+<img src="https://github.com/user-attachments/assets/89a702b9-4c45-483f-b2a9-c7e42e94f80a" alt="Imagen página">
 
+<h2>
+  visualizacion de contenido del csv
+</h2>
+<img src="https://github.com/user-attachments/assets/b633df25-539a-4edf-b96c-df6dbab9e258" alt="Imagen página">
+
+<hr>
 <h2>Link para clonar</h2>
 
     git clone https://github.com/ybamBogado/proces1archivoSjs.git
     
-
+<hr>
 ## 🤝Contribuir
 ¡Las contribuciones son bienvenidas! 🙌 Si deseas mejorar este proyecto, por favor sigue estos pasos:
 1. 🍴 Haz un fork del repositorio.
