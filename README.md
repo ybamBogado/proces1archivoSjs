@@ -40,8 +40,8 @@
 <hr>
 ## 🤝Contribuir
 ¡Las contribuciones son bienvenidas! 🙌 Si deseas mejorar este proyecto, por favor sigue estos pasos:
-1. 🍴 Haz un fork del repositorio.
-2. 🌿 Crea una nueva rama con tu característica o corrección:
+<p>1. 🍴 Haz un fork del repositorio. </p>
+<p>2. 🌿 Crea una nueva rama con tu característica o corrección:</p>
 
     git checkout -b mi-nueva-caracteristica
    
