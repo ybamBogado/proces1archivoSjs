@@ -171,35 +171,53 @@ public class Program
     {
         string rutaArchivo = "C:\\Users\\User\\source\\repos\\proces1archivoSjs\\proces1archivoSjs\\dataset.csv";
         var procesos = ConvertirCsvAProcesos(rutaArchivo);
+        bool continuar = true;
 
-        Console.WriteLine("¿Cómo querés ver los procesos?");
-        Console.WriteLine("1 - Orden normal (imprime los datos tal cual están en el CSV)");
-        Console.WriteLine("2 - Min heap");
-        Console.WriteLine("3 - Max heap");
-
-        string opcion = Console.ReadLine();
-
-        switch (opcion)
+        do
         {
-            case "1":
-                foreach (var proceso in procesos)
-                {
-                    Console.WriteLine(proceso);
-                }
-                break;
-            case "2":
-                MinHeap minHeap = new MinHeap();
-                minHeap.BuildHeap(procesos);
-                minHeap.PrintHeap();
-                break;
-            case "3":
-                MaxHeap maxHeap = new MaxHeap();
-                maxHeap.BuildHeap(procesos);
-                maxHeap.PrintHeap();
-                break;
-            default:
-                Console.WriteLine("Opción no válida.");
-                break;
-        }
+            Console.Clear();
+            Console.WriteLine("¿Cómo querés ver los procesos?");
+            Console.WriteLine("1 - Orden normal (imprime los datos tal cual están en el CSV)");
+            Console.WriteLine("2 - Min heap");
+            Console.WriteLine("3 - Max heap");
+            Console.WriteLine("4 - Salir");
+
+            string opcion = Console.ReadLine();
+
+            switch (opcion)
+            {
+                case "1":
+                    foreach (var proceso in procesos)
+                    {
+                        Console.WriteLine(proceso);
+                    }
+                    break;
+                case "2":
+                    MinHeap minHeap = new MinHeap();
+                    minHeap.BuildHeap(procesos);
+                    minHeap.PrintHeap();
+                    break;
+                case "3":
+                    MaxHeap maxHeap = new MaxHeap();
+                    maxHeap.BuildHeap(procesos);
+                    maxHeap.PrintHeap();
+                    break;
+                case "4":
+                    continuar = false;
+                    break;
+                default:
+                    Console.WriteLine("Opción no válida.");
+                    break;
+            }
+
+            if (continuar)
+            {
+                Console.WriteLine("Presiona Enter para continuar...");
+                Console.ReadLine();
+            }
+
+        } while (continuar);
     }
+
+
 }
