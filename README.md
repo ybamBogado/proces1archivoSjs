@@ -4,9 +4,17 @@
 </h2>
 <p>
   El siguiente proyecto contiene una app de consola que devuelve el contenido de un archivo csv y con su contenido utiliza una clase llamada proceso, para ofrecer distintas vistas otorgando estas opciones
+</p>
+<p>
   1-por defecto como viene en el csv
+</p>
+<p>
   2-min heap basandose en el tiempo que tarda el proceso
+</p>
+<p>
   3-max heap basandose en la prioridad del proceso
+</p>
+<p>
   4-salir
 </p>
 <hr>
