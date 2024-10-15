@@ -13,9 +13,9 @@
 <img src="https://github.com/user-attachments/assets/807c94f4-857d-4818-97e1-3002daab4c9f" alt="Imagen página">
 
 <h2>Link para clonar</h2>
-```bash
+
     git clone https://github.com/ybamBogado/proces1archivoSjs.git
-    ```
+    
 
 ## 🤝Contribuir
 ¡Las contribuciones son bienvenidas! 🙌 Si deseas mejorar este proyecto, por favor sigue estos pasos:
